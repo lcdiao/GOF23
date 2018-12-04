@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.½¨ÔìÕßÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å»ºé€ è€…æ¨¡å¼;
 
 public class SxtAirShipDirector implements AirShipDirector{
 	
@@ -17,7 +17,7 @@ public class SxtAirShipDirector implements AirShipDirector{
 		OrbitalModule o = builder.builderOrbitalModule();
 		EscapeTower et = builder.builderEscapeTower();
 		
-		//ÅäÖÃ³É·É´¬¶ÔÏó
+		//é…ç½®æˆé£èˆ¹å¯¹è±¡
 		AirShip ship = new AirShip();
 		ship.setEngine(e);
 		ship.setEscapeTower(et);

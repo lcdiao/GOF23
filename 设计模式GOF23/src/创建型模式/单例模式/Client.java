@@ -1,14 +1,14 @@
-package ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼;
 
-import ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.Ã¶¾Ùµ¥Àı.SingletonDemo5;
-import ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.¶öººÊ½.SingletonDemo1;
+import åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.æšä¸¾å•ä¾‹.SingletonDemo5;
+import åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.é¥¿æ±‰å¼.SingletonDemo1;
 
 public class Client {
 	public static void main(String[] args) {
 		SingletonDemo1 s1 = SingletonDemo1.getInstance();
 		SingletonDemo1 s2 = SingletonDemo1.getInstance();
-		System.out.println(s1);			//µ¥ÀıÄ£Ê½.¶öººÊ½.SingletonDemo1@7852e922
-		System.out.println(s2);			//µ¥ÀıÄ£Ê½.¶öººÊ½.SingletonDemo1@7852e922
+		System.out.println(s1);			//å•ä¾‹æ¨¡å¼.é¥¿æ±‰å¼.SingletonDemo1@7852e922
+		System.out.println(s2);			//å•ä¾‹æ¨¡å¼.é¥¿æ±‰å¼.SingletonDemo1@7852e922
 		System.out.println(s1==s2);		//true
 		
 		

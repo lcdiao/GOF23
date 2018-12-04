@@ -1,6 +1,6 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.³éÏó¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.æŠ½è±¡å·¥å‚æ¨¡å¼;
 
-public interface CarFactory {//·¢¶¯»ú¡¢×ùÒÎ¡¢ÂÖÌ¥×é³ÉÒ»¸ö²úÆ·×å
+public interface CarFactory {//å‘åŠ¨æœºã€åº§æ¤…ã€è½®èƒç»„æˆä¸€ä¸ªäº§å“æ—
 	Engine createEngine();
 	Seat createSeat();
 	Tyre createTyre();

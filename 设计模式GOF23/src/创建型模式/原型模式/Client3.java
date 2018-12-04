@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.Ô­ĞÍÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.åŸå‹æ¨¡å¼;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -8,40 +8,40 @@ import java.io.ObjectOutputStream;
 import java.util.Date;
 
 /**
- * Ô­ĞÍÄ£Ê½(Éî¿ËÂ¡:Ê¹ÓÃĞòÁĞ»¯ºÍ·´ĞòÁĞ»¯ÊµÏÖ)
+ * åŸå‹æ¨¡å¼(æ·±å…‹éš†:ä½¿ç”¨åºåˆ—åŒ–å’Œååºåˆ—åŒ–å®ç°)
  * @author lcd
  *
  */
 public class Client3 {
 	public static void main(String[] args) throws Exception {
 		Date d = new Date(123123123222L);
-		Sheep s1 = new Sheep("ÉÙÀû",d);
-		System.out.println(s1);					//Ô­ĞÍÄ£Ê½.Sheep@7852e922
-		System.out.println(s1.getSname());		//ÉÙÀû
+		Sheep s1 = new Sheep("å°‘åˆ©",d);
+		System.out.println(s1);					//åŸå‹æ¨¡å¼.Sheep@7852e922
+		System.out.println(s1.getSname());		//å°‘åˆ©
 		System.out.println(s1.getBirthday());	//Mon Nov 26 08:52:03 CST 1973
 		
-		//ÒÔs1ÎªÔ­ĞÍ½¨ĞÂ¶ÔÏó
+		//ä»¥s1ä¸ºåŸå‹å»ºæ–°å¯¹è±¡
 //		Sheep s2 = (Sheep) s1.clone();
-		//Ê¹ÓÃĞòÁĞ»¯ºÍ·´ĞòÁĞ»¯ÊµÏÖÉî¿ËÂ¡
+		//ä½¿ç”¨åºåˆ—åŒ–å’Œååºåˆ—åŒ–å®ç°æ·±å…‹éš†
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
 		ObjectOutputStream oos = new ObjectOutputStream(bos);
 		oos.writeObject(s1);
-		byte[] bytes = bos.toByteArray();	//ĞòÁĞ»¯
+		byte[] bytes = bos.toByteArray();	//åºåˆ—åŒ–
 		
 		ByteArrayInputStream bis = new ByteArrayInputStream(bytes);
 		ObjectInputStream ois = new ObjectInputStream(bis);
-		Sheep s2 = (Sheep) ois.readObject();		//·´ĞòÁĞ»¯
+		Sheep s2 = (Sheep) ois.readObject();		//ååºåˆ—åŒ–
 		
 		
 		
-		//ĞŞ¸Äs1µÄÊôĞÔ
+		//ä¿®æ”¹s1çš„å±æ€§
 		d.setTime(24124124124L);
 		System.out.println(s1.getBirthday());	//Wed Oct 07 13:08:44 CST 1970
 		
-		System.out.println(s2);					//Ô­ĞÍÄ£Ê½.Sheep@4e25154f
-		System.out.println(s2.getSname());		//ÉÙÀû
+		System.out.println(s2);					//åŸå‹æ¨¡å¼.Sheep@4e25154f
+		System.out.println(s2.getSname());		//å°‘åˆ©
 		System.out.println(s2.getBirthday());	//Mon Nov 26 08:52:03 CST 1973
-		s2.setSname("¶àÀû");
-		System.out.println(s2.getSname());		//¶àÀû
+		s2.setSname("å¤šåˆ©");
+		System.out.println(s2.getSname());		//å¤šåˆ©
 	}
 }

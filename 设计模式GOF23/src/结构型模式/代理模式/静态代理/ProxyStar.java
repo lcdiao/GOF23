@@ -1,4 +1,4 @@
-package ½á¹¹ĞÍÄ£Ê½.´úÀíÄ£Ê½.¾²Ì¬´úÀí;
+package ç»“æ„å‹æ¨¡å¼.ä»£ç†æ¨¡å¼.é™æ€ä»£ç†;
 
 public class ProxyStar implements Star{
 	private Star star;
@@ -9,25 +9,25 @@ public class ProxyStar implements Star{
 	@Override
 	public void confer() {
 		System.out.println("RealStar.confer()");
-		System.out.println("´úÀí½ÇÉ«ÃæÌ¸");
+		System.out.println("ä»£ç†è§’è‰²é¢è°ˆ");
 	}
 	@Override
 	public void signContract() {
 		System.out.println("RealStar.signContract()");
-		System.out.println("´úÀí½ÇÉ«Ç©ºÏÍ¬");
+		System.out.println("ä»£ç†è§’è‰²ç­¾åˆåŒ");
 	}
 	@Override
 	public void bookTicket() {
 		System.out.println("RealStar.bookTicket()");
-		System.out.println("´úÀí½ÇÉ«¶©Æ±");
+		System.out.println("ä»£ç†è§’è‰²è®¢ç¥¨");
 	}
 	@Override
 	public void sing() {
-		star.sing();//µ÷ÓÃÕæÊµstarµÄsing·½·¨
+		star.sing();//è°ƒç”¨çœŸå®starçš„singæ–¹æ³•
 	}
 	@Override
 	public void collectMoney() {
 		System.out.println("RealStar.collectMoney()");
-		System.out.println("´úÀí½ÇÉ«ÊÕÎ²¿î");
+		System.out.println("ä»£ç†è§’è‰²æ”¶å°¾æ¬¾");
 	}
 }

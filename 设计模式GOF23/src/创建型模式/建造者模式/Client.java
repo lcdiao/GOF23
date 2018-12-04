@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.½¨ÔìÕßÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å»ºé€ è€…æ¨¡å¼;
 
 public class Client {
 	public static void main(String[] args) {

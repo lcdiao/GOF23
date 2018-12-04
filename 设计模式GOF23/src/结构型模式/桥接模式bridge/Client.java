@@ -1,8 +1,8 @@
-package ½á¹¹ĞÍÄ£Ê½.ÇÅ½ÓÄ£Ê½bridge;
+package ç»“æ„å‹æ¨¡å¼.æ¡¥æ¥æ¨¡å¼bridge;
 
 public class Client {
 	public static void main(String[] args) {
-		//ÏúÊÛÁªÏëµÄ±Ê¼Ç±¾µçÄÔ
+		//é”€å”®è”æƒ³çš„ç¬”è®°æœ¬ç”µè„‘
 		Computer2 c = new Laptop2(new Lenovo());
 		c.sale();
 		

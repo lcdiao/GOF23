@@ -1,7 +1,7 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½observer;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼observer;
 
 public class ObserverA implements Observer {
-    private int myState;//myStateĞèÒª¸úÄ¿±ê¶ÔÏóµÄstateÖµ±£´æÒ»ÖÂ
+    private int myState;//myStateéœ€è¦è·Ÿç›®æ ‡å¯¹è±¡çš„stateå€¼ä¿å­˜ä¸€è‡´
     @Override
     public void update(Subject subject) {
         myState = ((ConcreteSubject)subject).getState();

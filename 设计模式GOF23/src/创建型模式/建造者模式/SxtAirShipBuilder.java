@@ -1,23 +1,23 @@
-package ´´½¨ĞÍÄ£Ê½.½¨ÔìÕßÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å»ºé€ è€…æ¨¡å¼;
 
-public class SxtAirShipBuilder implements AirShipBuilder{	//StringBuilder£¬XML½âÎöÖĞ£¬JDOM¿âÖĞµÄÀà:DmoBuilder,SaxBuilder
+public class SxtAirShipBuilder implements AirShipBuilder{	//StringBuilderï¼ŒXMLè§£æä¸­ï¼ŒJDOMåº“ä¸­çš„ç±»:DmoBuilder,SaxBuilder
 
 	@Override
 	public Engine builderEngine() {
-		System.out.println("¹¹½¨ÉĞÑ§ÌÃÅÆ·¢¶¯»ú!");
-		return new Engine("ÉĞÑ§ÌÃÅÆ·¢¶¯»ú");//Ò²¿É¸ú¹¤³§Ä£Ê½½áºÏÆğÀ´
+		System.out.println("æ„å»ºå°šå­¦å ‚ç‰Œå‘åŠ¨æœº!");
+		return new Engine("å°šå­¦å ‚ç‰Œå‘åŠ¨æœº");//ä¹Ÿå¯è·Ÿå·¥å‚æ¨¡å¼ç»“åˆèµ·æ¥
 	}
 
 	@Override
 	public OrbitalModule builderOrbitalModule() {
-		System.out.println("¹¹½¨ÉĞÑ§ÌÃÅÆ¹ìµÀ²Õ!");
-		return new OrbitalModule("ÉĞÑ§ÌÃÅÆ¹ìµÀ²Õ");
+		System.out.println("æ„å»ºå°šå­¦å ‚ç‰Œè½¨é“èˆ±!");
+		return new OrbitalModule("å°šå­¦å ‚ç‰Œè½¨é“èˆ±");
 	}
 
 	@Override
 	public EscapeTower builderEscapeTower() {
-		System.out.println("¹¹½¨ÉĞÑ§ÌÃÅÆÌÓÒİ²Õ!");
-		return new EscapeTower("ÉĞÑ§ÌÃÅÆÌÓÒİ²Õ");
+		System.out.println("æ„å»ºå°šå­¦å ‚ç‰Œé€ƒé€¸èˆ±!");
+		return new EscapeTower("å°šå­¦å ‚ç‰Œé€ƒé€¸èˆ±");
 	}
 
 }

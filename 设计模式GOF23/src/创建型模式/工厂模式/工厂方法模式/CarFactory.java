@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¹¤³§·½·¨Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.å·¥å‚æ–¹æ³•æ¨¡å¼;
 
 public interface CarFactory {
 	Car createCar();

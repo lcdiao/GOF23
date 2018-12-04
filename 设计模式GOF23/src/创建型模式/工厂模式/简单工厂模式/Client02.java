@@ -1,13 +1,13 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¼òµ¥¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.ç®€å•å·¥å‚æ¨¡å¼;
 /**
- * ²âÊÔÔÚ¼òµ¥¹¤³§Ä£Ê½µÄÇé¿öÏÂ
+ * æµ‹è¯•åœ¨ç®€å•å·¥å‚æ¨¡å¼çš„æƒ…å†µä¸‹
  * @author lcd
  *
  */
-public class Client02 {	//µ÷ÓÃÕß
+public class Client02 {	//è°ƒç”¨è€…
 	public static void main(String[] args) {
-		Car c1 = CarFactory.createCar("°ÂµÏ");
-		Car c2 = CarFactory.createCar("±ÈÑÇµÏ");
+		Car c1 = CarFactory.createCar("å¥¥è¿ª");
+		Car c2 = CarFactory.createCar("æ¯”äºšè¿ª");
 		
 		c1.run();
 		c2.run();

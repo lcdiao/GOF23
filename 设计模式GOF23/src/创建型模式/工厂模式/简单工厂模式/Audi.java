@@ -1,8 +1,8 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¼òµ¥¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.ç®€å•å·¥å‚æ¨¡å¼;
 
 public class Audi implements Car{
 	@Override
 	public void run() {
-		System.out.println("°ÂµÏÔÚÅÜ!");
+		System.out.println("å¥¥è¿ªåœ¨è·‘!");
 	}
 }

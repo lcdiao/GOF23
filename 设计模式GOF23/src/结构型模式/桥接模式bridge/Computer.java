@@ -1,26 +1,26 @@
-package ½á¹¹ĞÍÄ£Ê½.ÇÅ½ÓÄ£Ê½bridge;
+package ç»“æ„å‹æ¨¡å¼.æ¡¥æ¥æ¨¡å¼bridge;
 
 public interface Computer {
 	void sale();
-	//À©Õ¹·Ç³£·±Ëö
+	//æ‰©å±•éå¸¸ç¹ç
 }
 
 class Desktop implements Computer{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÌ¨Ê½»ú!");
+		System.out.println("é”€å”®å°å¼æœº!");
 	}
 }
 class Laptop implements Computer{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛ±Ê¼Ç±¾!");
+		System.out.println("é”€å”®ç¬”è®°æœ¬!");
 	}
 }
 class Pad implements Computer{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÆ½°åµçÄÔ!");
+		System.out.println("é”€å”®å¹³æ¿ç”µè„‘!");
 	}
 }
 
@@ -28,19 +28,19 @@ class Pad implements Computer{
 class LenovoDesktop extends Desktop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÁªÏëÌ¨Ê½»ú!");
+		System.out.println("é”€å”®è”æƒ³å°å¼æœº!");
 	}
 }
 class LenovoLaptop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÁªÏë±Ê¼Ç±¾!");
+		System.out.println("é”€å”®è”æƒ³ç¬”è®°æœ¬!");
 	}
 }
 class LenovoPad extends Pad{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÁªÏëÆ½°åµçÄÔ!");
+		System.out.println("é”€å”®è”æƒ³å¹³æ¿ç”µè„‘!");
 	}
 }
 
@@ -48,19 +48,19 @@ class LenovoPad extends Pad{
 class ShenzhouDesktop extends Desktop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖÛÌ¨Ê½»ú!");
+		System.out.println("é”€å”®ç¥èˆŸå°å¼æœº!");
 	}
 }
 class ShenzhouLaptop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖÛ±Ê¼Ç±¾!");
+		System.out.println("é”€å”®ç¥èˆŸç¬”è®°æœ¬!");
 	}
 }
 class ShenzhouPad extends Pad{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖÛÆ½°åµçÄÔ!");
+		System.out.println("é”€å”®ç¥èˆŸå¹³æ¿ç”µè„‘!");
 	}
 }
 
@@ -68,19 +68,19 @@ class ShenzhouPad extends Pad{
 class DellDesktop extends Desktop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛ´÷¶ûÌ¨Ê½»ú!");
+		System.out.println("é”€å”®æˆ´å°”å°å¼æœº!");
 	}
 }
 class DellLaptop extends Laptop{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛ´÷¶û±Ê¼Ç±¾!");
+		System.out.println("é”€å”®æˆ´å°”ç¬”è®°æœ¬!");
 	}
 }
 class DellPad extends Pad{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛ´÷¶ûÆ½°åµçÄÔ!");
+		System.out.println("é”€å”®æˆ´å°”å¹³æ¿ç”µè„‘!");
 	}
 }
 

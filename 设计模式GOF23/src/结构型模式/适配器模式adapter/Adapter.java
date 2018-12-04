@@ -1,7 +1,7 @@
-package ½á¹¹ÐÍÄ£Ê½.ÊÊÅäÆ÷Ä£Ê½adapter;
+package ç»“æž„åž‹æ¨¡å¼.é€‚é…å™¨æ¨¡å¼adapter;
 /**
- * ÊÊÅäÆ÷(Ïàµ±ÓÚusbºÍps/2µÄ×ª½ÓÆ÷)
- * ÀàÊÊÅäÆ÷·½Ê½
+ * é€‚é…å™¨(ç›¸å½“äºŽusbå’Œps/2çš„è½¬æŽ¥å™¨)
+ * ç±»é€‚é…å™¨æ–¹å¼
  * @author lcd
  *
  */

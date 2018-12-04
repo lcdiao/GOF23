@@ -1,4 +1,4 @@
-package ½á¹¹ĞÍÄ£Ê½.´úÀíÄ£Ê½.¾²Ì¬´úÀí;
+package ç»“æ„å‹æ¨¡å¼.ä»£ç†æ¨¡å¼.é™æ€ä»£ç†;
 
 public class Client {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Client {
 		proxy.confer();
 		proxy.signContract();
 		proxy.bookTicket();
-		proxy.sing();//Ö»ÓĞsingÊÇÕæÊµ½ÇÉ«Ö´ĞĞ
+		proxy.sing();//åªæœ‰singæ˜¯çœŸå®è§’è‰²æ‰§è¡Œ
 		proxy.collectMoney();
 	}
 }

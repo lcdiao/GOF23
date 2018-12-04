@@ -1,7 +1,7 @@
-package ´´½¨ĞÍÄ£Ê½.Ô­ĞÍÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.åŸå‹æ¨¡å¼;
 /**
- * ²âÊÔÆÕÍ¨new·½Ê½´´½¨¶ÔÏóºÍclone·½Ê½´´½¨¶ÔÏóµÄĞ§ÂÊ²îÒì!
- * Èç¹ûĞèÒª¶ÌÊ±¼ä´´½¨´óÁ¿¶ÔÏó£¬²¢ÇÒnewµÄ¹ı³Ì±È½ÏºÄÊ±¡£Ôò¿ÉÒÔ¿¼ÂÇÊ¹ÓÃÔ­ĞÍÄ£Ê½!
+ * æµ‹è¯•æ™®é€šnewæ–¹å¼åˆ›å»ºå¯¹è±¡å’Œcloneæ–¹å¼åˆ›å»ºå¯¹è±¡çš„æ•ˆç‡å·®å¼‚!
+ * å¦‚æœéœ€è¦çŸ­æ—¶é—´åˆ›å»ºå¤§é‡å¯¹è±¡ï¼Œå¹¶ä¸”newçš„è¿‡ç¨‹æ¯”è¾ƒè€—æ—¶ã€‚åˆ™å¯ä»¥è€ƒè™‘ä½¿ç”¨åŸå‹æ¨¡å¼!
  * @author lcd
  *
  */
@@ -12,7 +12,7 @@ public class Client4 {
 			Laptop t = new Laptop();
 		}
 		long end = System.currentTimeMillis();
-		System.out.println("newµÄ·½Ê½ºÄÊ±:"+(end-start));
+		System.out.println("newçš„æ–¹å¼è€—æ—¶:"+(end-start));
 	}
 	public static void testClone(int size) throws CloneNotSupportedException {
 		long start = System.currentTimeMillis();
@@ -21,22 +21,22 @@ public class Client4 {
 			Laptop temp = (Laptop) t.clone();
 		}
 		long end = System.currentTimeMillis();
-		System.out.println("cloneµÄ·½Ê½ºÄÊ±:"+(end-start));
+		System.out.println("cloneçš„æ–¹å¼è€—æ—¶:"+(end-start));
 	}
 	
 	public static void main(String[] args) throws CloneNotSupportedException {
-		testNew(1000);		//newµÄ·½Ê½ºÄÊ±:10010
-		testClone(1000);	//cloneµÄ·½Ê½ºÄÊ±:10
-		//µ±´´½¨¶ÔÏóºÄÊ±¾ÃÊ±ÓÃclone¿ÉÒÔ¼«´ó½ÚÊ¡Ê±¼ä!!!!!!!!!
+		testNew(1000);		//newçš„æ–¹å¼è€—æ—¶:10010
+		testClone(1000);	//cloneçš„æ–¹å¼è€—æ—¶:10
+		//å½“åˆ›å»ºå¯¹è±¡è€—æ—¶ä¹…æ—¶ç”¨cloneå¯ä»¥æå¤§èŠ‚çœæ—¶é—´!!!!!!!!!
 	}
 }
 
 
 
-class Laptop implements Cloneable{//±Ê¼Ç±¾µçÄÔ
+class Laptop implements Cloneable{//ç¬”è®°æœ¬ç”µè„‘
 	public Laptop(){
 		try {
-			Thread.sleep(10);	//Ä£Äâ´´½¨¶ÔÏóºÄÊ±µÄ¹ı³Ì!
+			Thread.sleep(10);	//æ¨¡æ‹Ÿåˆ›å»ºå¯¹è±¡è€—æ—¶çš„è¿‡ç¨‹!
 		}catch(InterruptedException e){
 			e.printStackTrace();
 		}

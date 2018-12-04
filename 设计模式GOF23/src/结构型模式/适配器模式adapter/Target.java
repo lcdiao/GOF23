@@ -1,4 +1,4 @@
-package ½á¹¹ĞÍÄ£Ê½.ÊÊÅäÆ÷Ä£Ê½adapter;
+package ç»“æ„å‹æ¨¡å¼.é€‚é…å™¨æ¨¡å¼adapter;
 
 public interface Target {
 	void handleReq();

@@ -1,21 +1,21 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½observer;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼observer;
 
 public class Client {
     public static void main(String[] args) {
-        //Ä¿±ê¶ÔÏó
+        //ç›®æ ‡å¯¹è±¡
         ConcreteSubject subject = new ConcreteSubject();
 
-        //´´½¨¶à¸ö¹Û²ìÕß
+        //åˆ›å»ºå¤šä¸ªè§‚å¯Ÿè€…
         ObserverA obs1 = new ObserverA();
         ObserverA obs2 = new ObserverA();
         ObserverA obs3 = new ObserverA();
 
-        //¼ÓÈësubject¶ÔÏóµÄ¹Û²ìÕß¶ÓÁĞ
+        //åŠ å…¥subjectå¯¹è±¡çš„è§‚å¯Ÿè€…é˜Ÿåˆ—
         subject.registerObserver(obs1);
         subject.registerObserver(obs2);
         subject.registerObserver(obs3);
 
-        //¸Ä±äsubjectµÄ×´Ì¬
+        //æ”¹å˜subjectçš„çŠ¶æ€
         subject.setState(300);
         System.out.println("##############");
         System.out.println(obs1.getMyState());

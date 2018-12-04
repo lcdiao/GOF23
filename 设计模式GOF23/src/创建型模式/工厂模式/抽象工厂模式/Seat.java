@@ -1,19 +1,19 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.³éÏó¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.æŠ½è±¡å·¥å‚æ¨¡å¼;
 
-public interface Seat {//×ùÒÎ
+public interface Seat {//åº§æ¤…
 	void massage();
 }
 
 class LuxurySear implements Seat{
 	@Override
 	public void massage() {
-		System.out.println("¿ÉÒÔ×Ô¶¯°´Ä¦!");
+		System.out.println("å¯ä»¥è‡ªåŠ¨æŒ‰æ‘©!");
 	}
 }
 
 class LowSear implements Seat{
 	@Override
 	public void massage() {
-		System.out.println("²»ÄÜ°´Ä¦!");
+		System.out.println("ä¸èƒ½æŒ‰æ‘©!");
 	}
 }

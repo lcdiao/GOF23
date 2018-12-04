@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.Ô­ĞÍÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.åŸå‹æ¨¡å¼;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -9,7 +9,7 @@ public class Sheep implements Cloneable,Serializable{
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		Object obj = super.clone();	//Ö±½Óµ÷ÓÃObject¶ÔÏóµÄclone()·½·¨
+		Object obj = super.clone();	//ç›´æ¥è°ƒç”¨Objectå¯¹è±¡çš„clone()æ–¹æ³•
 		return obj;
 	}
 

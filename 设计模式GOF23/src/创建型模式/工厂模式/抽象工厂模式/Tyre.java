@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.³éÏó¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.æŠ½è±¡å·¥å‚æ¨¡å¼;
 
 public interface Tyre {
 	void revolve();
@@ -6,12 +6,12 @@ public interface Tyre {
 class LuxuryTyre implements Tyre{
 	@Override
 	public void revolve() {
-		System.out.println("Ğı×ª²»Ä¥Ëğ£¡");
+		System.out.println("æ—‹è½¬ä¸ç£¨æŸï¼");
 	}
 }
 class LowTyre implements Tyre{
 	@Override
 	public void revolve() {
-		System.out.println("Ğı×ª¿ì£¡");
+		System.out.println("æ—‹è½¬å¿«ï¼");
 	}
 }

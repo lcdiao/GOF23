@@ -1,4 +1,4 @@
-package ��Ϊ��ģʽ.�۲���ģʽobserver;
+package 行为型模式.观察者模式observer;
 
 import java.util.ArrayList;
 import java.util.List;

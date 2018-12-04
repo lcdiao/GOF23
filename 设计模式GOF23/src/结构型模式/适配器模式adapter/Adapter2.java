@@ -1,7 +1,7 @@
-package ½á¹¹ÐÍÄ£Ê½.ÊÊÅäÆ÷Ä£Ê½adapter;
+package ç»“æž„åž‹æ¨¡å¼.é€‚é…å™¨æ¨¡å¼adapter;
 /**
- * ÊÊÅäÆ÷(Ïàµ±ÓÚusbºÍps/2µÄ×ª½ÓÆ÷)
- * ¶ÔÏóÊÊÅäÆ÷·½Ê½,Ê¹ÓÃÁË×éºÏµÄ·½Ê½¸ú±»ÊÊÅä¶ÔÏóÕûºÏ
+ * é€‚é…å™¨(ç›¸å½“äºŽusbå’Œps/2çš„è½¬æŽ¥å™¨)
+ * å¯¹è±¡é€‚é…å™¨æ–¹å¼,ä½¿ç”¨äº†ç»„åˆçš„æ–¹å¼è·Ÿè¢«é€‚é…å¯¹è±¡æ•´åˆ
  * @author lcd
  *
  */

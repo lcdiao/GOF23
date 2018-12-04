@@ -1,8 +1,8 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¼òµ¥¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.ç®€å•å·¥å‚æ¨¡å¼;
 
 public class Byd implements Car{
 	@Override
 	public void run() {
-		System.out.println("±ÈÑÇµÏÔÚÅÜ!");
+		System.out.println("æ¯”äºšè¿ªåœ¨è·‘!");
 	}
 }

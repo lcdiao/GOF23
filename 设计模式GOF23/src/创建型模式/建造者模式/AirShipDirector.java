@@ -1,8 +1,8 @@
-package ´´½¨ĞÍÄ£Ê½.½¨ÔìÕßÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å»ºé€ è€…æ¨¡å¼;
 
 public interface AirShipDirector {
 	/**
-	 * ×é×°·É´¬¶ÔÏó
+	 * ç»„è£…é£èˆ¹å¯¹è±¡
 	 * @return
 	 */
 	AirShip directorAirShip();

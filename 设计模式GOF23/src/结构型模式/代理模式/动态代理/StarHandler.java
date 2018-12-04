@@ -1,4 +1,4 @@
-package ½á¹¹ĞÍÄ£Ê½.´úÀíÄ£Ê½.¶¯Ì¬´úÀí;
+package ç»“æ„å‹æ¨¡å¼.ä»£ç†æ¨¡å¼.åŠ¨æ€ä»£ç†;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -14,14 +14,14 @@ public class StarHandler implements InvocationHandler{
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		Object object = null;
-		System.out.println("ÕæÕıµÄ·½·¨Ö´ĞĞÇ°:");
-		System.out.println("ÃæÌ¸£¬Ç©ºÏÍ¬£¬Ô¤¸¶¿î£¬¶©»úÆ±");
+		System.out.println("çœŸæ­£çš„æ–¹æ³•æ‰§è¡Œå‰:");
+		System.out.println("é¢è°ˆï¼Œç­¾åˆåŒï¼Œé¢„ä»˜æ¬¾ï¼Œè®¢æœºç¥¨");
 		
 		if(method.getName().equals("sing")){
 			object = method.invoke(realStar,args);
 		}
-		System.out.println("ÕæÕıµÄ·½·¨Ö´ĞĞºó:");
-		System.out.println("ÊÕÎ²¿î");
+		System.out.println("çœŸæ­£çš„æ–¹æ³•æ‰§è¡Œå:");
+		System.out.println("æ”¶å°¾æ¬¾");
 		return object;
 	}
 }

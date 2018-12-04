@@ -1,6 +1,6 @@
-package ������ģʽ.����ģʽ.˫�ؼ����ʽ;
+package 创建型模式.单例模式.双重检测锁式;
 /**
- * ����˫�ؼ����ʽ����ģʽ������JVM�ײ��ڲ�ģ��ԭ��ż��������⣬������ʹ�ã���
+ * 测试双重检查锁式单例模式（由于JVM底层内部模型原因，偶尔会出问题，不建议使用！）
  * @author lcd
  *
  */
@@ -24,6 +24,6 @@ public class SingletonDemo3 {
 				instance = sc;
 			}
 		}
-		return instance;	//���ض������۵��ü��Σ����صĶ�����ͬһ��(����)
+		return instance;	//返回对象，无论调用几次，返回的对象都是同一个(单例)
 	}
 }

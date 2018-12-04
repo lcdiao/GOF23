@@ -1,30 +1,30 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½__obserableÀàºÍobserver½Ó¿Ú;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼__obserableç±»å’Œobserveræ¥å£;
 
 public class Client {
     public static void main(String[] args) {
-        //´´½¨Ä¿±ê¶ÔÏó
+        //åˆ›å»ºç›®æ ‡å¯¹è±¡
         ConcreteSubject subject = new ConcreteSubject();
 
-        //´´½¨¹Û²ìÕß
+        //åˆ›å»ºè§‚å¯Ÿè€…
         ObserverA obs1 = new ObserverA();
         ObserverA obs2 = new ObserverA();
         ObserverA obs3 = new ObserverA();
 
-        //½«¹Û²ìÕß¶ÔÏóÌí¼Óµ½Ä¿±ê¶ÔÏósubjectµÄ¹Û²ìÕßÈİÆ÷ÖÖ
+        //å°†è§‚å¯Ÿè€…å¯¹è±¡æ·»åŠ åˆ°ç›®æ ‡å¯¹è±¡subjectçš„è§‚å¯Ÿè€…å®¹å™¨ç§
         subject.addObserver(obs1);
         subject.addObserver(obs2);
         subject.addObserver(obs3);
 
-        //¸Ä±äsubjectµÄ×´Ì¬
+        //æ”¹å˜subjectçš„çŠ¶æ€
         subject.set(3000);
         System.out.println("====================");
-        //¹Û²ìÕßµÄ×´Ì¬·¢ÉúÁË±ä»¯
+        //è§‚å¯Ÿè€…çš„çŠ¶æ€å‘ç”Ÿäº†å˜åŒ–
         System.out.println(obs1.getMyState());
         System.out.println(obs2.getMyState());
         System.out.println(obs3.getMyState());
         subject.set(6666);
         System.out.println("====================");
-        //¹Û²ìÕßµÄ×´Ì¬·¢ÉúÁË±ä»¯
+        //è§‚å¯Ÿè€…çš„çŠ¶æ€å‘ç”Ÿäº†å˜åŒ–
         System.out.println(obs1.getMyState());
         System.out.println(obs2.getMyState());
         System.out.println(obs3.getMyState());

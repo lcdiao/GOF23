@@ -1,4 +1,4 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½__obserableÀàºÍobserver½Ó¿Ú;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼__obserableç±»å’Œobserveræ¥å£;
 
 import java.util.Observable;
 import java.util.Observer;

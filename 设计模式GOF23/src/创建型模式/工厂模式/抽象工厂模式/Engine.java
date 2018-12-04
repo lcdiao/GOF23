@@ -1,6 +1,6 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.³éÏó¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.æŠ½è±¡å·¥å‚æ¨¡å¼;
 
-public interface Engine {//·¢¶¯»ú
+public interface Engine {//å‘åŠ¨æœº
 	void run();
 	void start();
 }
@@ -8,20 +8,20 @@ public interface Engine {//·¢¶¯»ú
 class LuxuryEngine implements Engine{
 	@Override
 	public void run() {
-		System.out.println("·¢¶¯»ú×ªµÄ¿ì");
+		System.out.println("å‘åŠ¨æœºè½¬çš„å¿«");
 	}
 	@Override
 	public void start() {
-		System.out.println("Æô¶¯¿ì£¡¿ÉÒÔ×Ô¶¯ÆôÍ£!");
+		System.out.println("å¯åŠ¨å¿«ï¼å¯ä»¥è‡ªåŠ¨å¯åœ!");
 	}
 }
 class LowEngine implements Engine{
 	@Override
 	public void run() {
-		System.out.println("·¢¶¯»ú×ªµÄÂı");
+		System.out.println("å‘åŠ¨æœºè½¬çš„æ…¢");
 	}
 	@Override
 	public void start() {
-		System.out.println("Æô¶¯Âı£¡");
+		System.out.println("å¯åŠ¨æ…¢ï¼");
 	}
 }

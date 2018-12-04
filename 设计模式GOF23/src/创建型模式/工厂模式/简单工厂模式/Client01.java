@@ -1,10 +1,10 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¼òµ¥¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.ç®€å•å·¥å‚æ¨¡å¼;
 /**
- * ²âÊÔÔÚÃ»ÓĞ¹¤³§Ä£Ê½µÄÇé¿öÏÂ
+ * æµ‹è¯•åœ¨æ²¡æœ‰å·¥å‚æ¨¡å¼çš„æƒ…å†µä¸‹
  * @author lcd
  *
  */
-public class Client01 {	//µ÷ÓÃÕß
+public class Client01 {	//è°ƒç”¨è€…
 	public static void main(String[] args) {
 		Car c1 = new Audi();
 		Car c2 = new Byd();

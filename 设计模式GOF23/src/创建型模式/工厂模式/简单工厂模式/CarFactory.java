@@ -1,18 +1,18 @@
-package ´´½¨ĞÍÄ£Ê½.¹¤³§Ä£Ê½.¼òµ¥¹¤³§Ä£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å·¥å‚æ¨¡å¼.ç®€å•å·¥å‚æ¨¡å¼;
 /**
- * ¼òµ¥¹¤³§Àà
+ * ç®€å•å·¥å‚ç±»
  * @author lcd
  *
  */
 public class CarFactory {
 	
 	public static Car createCar(String type) {
-		if("°ÂµÏ".equals(type)) {
+		if("å¥¥è¿ª".equals(type)) {
 			return new Audi();
-		}else if("±ÈÑÇµÏ".equals(type)) {
+		}else if("æ¯”äºšè¿ª".equals(type)) {
 			return new Byd();
 		}else {
 			return null;
-		}//Ğ¡ÎÊÌâ:Î¥·´¿ª±ÕÔ­Ôò:Èç¹ûÓĞÆäËûµÄÀàĞÍCar¾ÍÒªĞŞ¸Ä´úÂë
+		}//å°é—®é¢˜:è¿åå¼€é—­åŸåˆ™:å¦‚æœæœ‰å…¶ä»–çš„ç±»å‹Carå°±è¦ä¿®æ”¹ä»£ç 
 	}
 }

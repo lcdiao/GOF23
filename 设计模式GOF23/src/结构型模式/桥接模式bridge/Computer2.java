@@ -1,6 +1,6 @@
-package ½á¹¹ĞÍÄ£Ê½.ÇÅ½ÓÄ£Ê½bridge;
+package ç»“æ„å‹æ¨¡å¼.æ¡¥æ¥æ¨¡å¼bridge;
 /**
- * µçÄÔÀàĞÍµÄÎ¬¶È(ÈôÒªÔö¼ÓĞÂµçÄÔÀàĞÍÖ»ĞèÒªĞŞ¸Ä¸ÃÒ³Ãæ´úÂë¼´¿É£¬¶ÀÁ¢±ä»¯£¡)
+ * ç”µè„‘ç±»å‹çš„ç»´åº¦(è‹¥è¦å¢åŠ æ–°ç”µè„‘ç±»å‹åªéœ€è¦ä¿®æ”¹è¯¥é¡µé¢ä»£ç å³å¯ï¼Œç‹¬ç«‹å˜åŒ–ï¼)
  * @author YY
  *
  */
@@ -25,7 +25,7 @@ class Desktop2 extends Computer2{
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("ÏúÊÛÌ¨Ê½»ú");
+		System.out.println("é”€å”®å°å¼æœº");
 	}
 }
 
@@ -38,7 +38,7 @@ class Laptop2 extends Computer2{
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("ÏúÊÛ±Ê¼Ç±¾");
+		System.out.println("é”€å”®ç¬”è®°æœ¬");
 	}
 }
 

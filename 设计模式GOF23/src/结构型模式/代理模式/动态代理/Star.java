@@ -1,14 +1,14 @@
-package ½á¹¹ĞÍÄ£Ê½.´úÀíÄ£Ê½.¶¯Ì¬´úÀí;
+package ç»“æ„å‹æ¨¡å¼.ä»£ç†æ¨¡å¼.åŠ¨æ€ä»£ç†;
 
 public interface Star {
-	/**ÃæÌ¸*/
+	/**é¢è°ˆ*/
 	void confer();	
-	/**Ç©ºÏÍ¬*/
+	/**ç­¾åˆåŒ*/
 	void signContract();	
-	/**¶©Æ±*/
+	/**è®¢ç¥¨*/
 	void bookTicket();		
-	/**³ª¸è*/
+	/**å”±æ­Œ*/
 	void sing();			
-	/**ÊÕÎ²¿î*/
+	/**æ”¶å°¾æ¬¾*/
 	void collectMoney();	
 }

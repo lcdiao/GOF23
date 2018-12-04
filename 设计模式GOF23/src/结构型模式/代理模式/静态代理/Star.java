@@ -1,9 +1,9 @@
-package ½á¹¹ĞÍÄ£Ê½.´úÀíÄ£Ê½.¾²Ì¬´úÀí;
+package ç»“æ„å‹æ¨¡å¼.ä»£ç†æ¨¡å¼.é™æ€ä»£ç†;
 
 public interface Star {
-	void confer();			/**ÃæÌ¸*/
-	void signContract();	/**Ç©ºÏÍ¬*/
-	void bookTicket();		/**¶©Æ±*/
-	void sing();			/**³ª¸è*/
-	void collectMoney();	/**ÊÕÎ²¿î*/
+	void confer();			/**é¢è°ˆ*/
+	void signContract();	/**ç­¾åˆåŒ*/
+	void bookTicket();		/**è®¢ç¥¨*/
+	void sing();			/**å”±æ­Œ*/
+	void collectMoney();	/**æ”¶å°¾æ¬¾*/
 }

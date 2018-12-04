@@ -1,17 +1,17 @@
-package ´´½¨ĞÍÄ£Ê½.½¨ÔìÕßÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.å»ºé€ è€…æ¨¡å¼;
 /**
- * ÉĞÑ§ÌÃÅÆÓîÖæ·É´¬
+ * å°šå­¦å ‚ç‰Œå®‡å®™é£èˆ¹
  * @author lcd
  *
  */
 public class AirShip {
-	private OrbitalModule orbitalModule;	//¹ìµÀ²Õ
-	private Engine engine;					//·¢¶¯»ú
-	private EscapeTower escapeTower;		//ÌÓÒİ²Õ
+	private OrbitalModule orbitalModule;	//è½¨é“èˆ±
+	private Engine engine;					//å‘åŠ¨æœº
+	private EscapeTower escapeTower;		//é€ƒé€¸èˆ±
 	
 	
 	public void launch() {
-		System.out.println("·¢Éä!");
+		System.out.println("å‘å°„!");
 	}
 	
 	

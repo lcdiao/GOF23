@@ -1,6 +1,6 @@
-package ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.¾²Ì¬ÄÚ²¿ÀàÊ½;
+package åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.é™æ€å†…éƒ¨ç±»å¼;
 /**
- * ²âÊÔ¾²Ì¬ÄÚ²¿ÀàÊ½µ¥ÀıÄ£Ê½£¨Ïß³Ì°²È«£¬µ÷ÓÃĞ§ÂÊ¸ß£¡ÄÜÑÓÊ±¼ÓÔØ£©
+ * æµ‹è¯•é™æ€å†…éƒ¨ç±»å¼å•ä¾‹æ¨¡å¼ï¼ˆçº¿ç¨‹å®‰å…¨ï¼Œè°ƒç”¨æ•ˆç‡é«˜ï¼èƒ½å»¶æ—¶åŠ è½½ï¼‰
  * @author lcd
  *
  */
@@ -8,7 +8,7 @@ public class  SingletonDemo4 {
 	private static class SingletonClassInstance{
 		private static final SingletonDemo4 instance = new SingletonDemo4();
 	}
-	private SingletonDemo4() {}			//Ë½ÓĞ»¯¹¹ÔìÆ÷
+	private SingletonDemo4() {}			//ç§æœ‰åŒ–æ„é€ å™¨
 	
 	public static SingletonDemo4 getInstance() {		
 		return SingletonClassInstance.instance;

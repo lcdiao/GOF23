@@ -1,17 +1,17 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½__obserableÀàºÍobserver½Ó¿Ú;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼__obserableç±»å’Œobserveræ¥å£;
 
 import java.util.Observable;
 
-//Ä¿±ê¶ÔÏó
+//ç›®æ ‡å¯¹è±¡
 public class ConcreteSubject extends Observable {
 
     private int state;
 
     public void set(int s){
-        state = s;  //Ä¿±ê¶ÔÏóµÄ×´Ì¬·¢ÉúÁË±ä»¯
+        state = s;  //ç›®æ ‡å¯¹è±¡çš„çŠ¶æ€å‘ç”Ÿäº†å˜åŒ–
 
-        setChanged();//±íÊ¾Ä¿±ê¶ÔÏóÒÑ¾­×öÁË¸ü¸Ä
-        notifyObservers(state);//Í¨ÖªËùÓĞµÄ¹Û²ìÕß
+        setChanged();//è¡¨ç¤ºç›®æ ‡å¯¹è±¡å·²ç»åšäº†æ›´æ”¹
+        notifyObservers(state);//é€šçŸ¥æ‰€æœ‰çš„è§‚å¯Ÿè€…
     }
 
     public int getState() {

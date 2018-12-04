@@ -1,11 +1,11 @@
-package ½á¹¹ĞÍÄ£Ê½.ÊÊÅäÆ÷Ä£Ê½adapter;
+package ç»“æ„å‹æ¨¡å¼.é€‚é…å™¨æ¨¡å¼adapter;
 /**
- * ±»ÊÊÅäµÄÀà(Ïàµ±ÓÚÀı×ÓÖĞµÄ£¬PS/2¼üÅÌ)
+ * è¢«é€‚é…çš„ç±»(ç›¸å½“äºä¾‹å­ä¸­çš„ï¼ŒPS/2é”®ç›˜)
  * @author lcd
  *
  */
 public class Adaptee {
 	public void request() {
-		System.out.println("¿ÉÒÔÍê³É¿Í»§ÇëÇóĞèÒªµÄ¹¦ÄÜ£¡");
+		System.out.println("å¯ä»¥å®Œæˆå®¢æˆ·è¯·æ±‚éœ€è¦çš„åŠŸèƒ½ï¼");
 	}
 }

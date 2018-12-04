@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.Ô­ĞÍÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.åŸå‹æ¨¡å¼;
 
 import java.util.Date;
 
@@ -8,11 +8,11 @@ public class Sheep2 implements Cloneable{
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		Object obj = super.clone();	//Ö±½Óµ÷ÓÃObject¶ÔÏóµÄclone()·½·¨
+		Object obj = super.clone();	//ç›´æ¥è°ƒç”¨Objectå¯¹è±¡çš„clone()æ–¹æ³•
 		
-		//Ìí¼ÓÈçÏÂ´úÂëÊµÏÖÉî¿ËÂ¡(deep clone)
+		//æ·»åŠ å¦‚ä¸‹ä»£ç å®ç°æ·±å…‹éš†(deep clone)
 		Sheep2 s = (Sheep2)obj;
-		s.birthday = (Date) this.birthday.clone();//°ÑÊôĞÔÒ²½øĞĞ¿ËÂ¡!!!
+		s.birthday = (Date) this.birthday.clone();//æŠŠå±æ€§ä¹Ÿè¿›è¡Œå…‹éš†!!!
 		
 		return obj;
 	}

@@ -1,18 +1,18 @@
-package ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.ÀÁººÊ½;
+package åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.æ‡’æ±‰å¼;
 /**
- * ²âÊÔÀÁººÊ½µ¥ÀıÄ£Ê½£¨Ïß³Ì°²È«£¬µ÷ÓÃĞ§ÂÊ²»¸ß£¡ÄÜÑÓÊ±¼ÓÔØ£©
+ * æµ‹è¯•æ‡’æ±‰å¼å•ä¾‹æ¨¡å¼ï¼ˆçº¿ç¨‹å®‰å…¨ï¼Œè°ƒç”¨æ•ˆç‡ä¸é«˜ï¼èƒ½å»¶æ—¶åŠ è½½ï¼‰
  * @author lcd
  *
  */
 public class SingletonDemo2 {
-	private static SingletonDemo2 instance;//Àà³õÊ¼»¯Ê±£¬²»³õÊ¼»¯Õâ¸ö¶ÔÏó(ÑÓÊ±¼ÓÔØ£¬ÕæÕıÓÃµÄÊ±ºòÔÚ´´½¨)
-	private SingletonDemo2() {}			//Ë½ÓĞ»¯¹¹ÔìÆ÷
+	private static SingletonDemo2 instance;//ç±»åˆå§‹åŒ–æ—¶ï¼Œä¸åˆå§‹åŒ–è¿™ä¸ªå¯¹è±¡(å»¶æ—¶åŠ è½½ï¼ŒçœŸæ­£ç”¨çš„æ—¶å€™åœ¨åˆ›å»º)
+	private SingletonDemo2() {}			//ç§æœ‰åŒ–æ„é€ å™¨
 	
-	//·½·¨Í¬²½£¬µ÷ÓÃĞ§ÂÊµÍ
+	//æ–¹æ³•åŒæ­¥ï¼Œè°ƒç”¨æ•ˆç‡ä½
 	public static synchronized SingletonDemo2 getInstance() {
 		if(instance==null) {
 			instance = new SingletonDemo2();
 		}
-		return instance;	//·µ»Ø¶ÔÏó£¬ÎŞÂÛµ÷ÓÃ¼¸´Î£¬·µ»ØµÄ¶ÔÏó¶¼ÊÇÍ¬Ò»¸ö(µ¥Àı)
+		return instance;	//è¿”å›å¯¹è±¡ï¼Œæ— è®ºè°ƒç”¨å‡ æ¬¡ï¼Œè¿”å›çš„å¯¹è±¡éƒ½æ˜¯åŒä¸€ä¸ª(å•ä¾‹)
 	}
 }

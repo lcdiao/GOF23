@@ -1,32 +1,32 @@
-package ´´½¨ĞÍÄ£Ê½.Ô­ĞÍÄ£Ê½;
+package åˆ›å»ºå‹æ¨¡å¼.åŸå‹æ¨¡å¼;
 
 import java.util.Date;
 
 /**
- * ²âÊÔÔ­ĞÍÄ£Ê½	(Ç³¿ËÂ¡:ÔÚJAVAÖĞ£¬Ç³¸´ÖÆÊÇÖ¸µ±¶ÔÏóµÄ×Ö¶ÎÖµ±»¸´ÖÆÊ±,×Ö¶ÎÒıÓÃµÄ¶ÔÏó²»»á±»¸´ÖÆ.ÀıÈç,Èç¹ûÒ»¸ö¶ÔÏóÓĞÒ»¸öÖ¸Ïò×Ö·û´®µÄ×Ö¶Î,²¢ÇÒÎÒÃÇ¶Ô¸Ã¶ÔÏó×öÁËÒ»¸öÇ³¸´ÖÆ,ÄÇ÷áÁ½¸ö¶ÔÏó½«ÒıÓÃÍ¬Ò»¸ö×Ö·û´®)
+ * æµ‹è¯•åŸå‹æ¨¡å¼	(æµ…å…‹éš†:åœ¨JAVAä¸­ï¼Œæµ…å¤åˆ¶æ˜¯æŒ‡å½“å¯¹è±¡çš„å­—æ®µå€¼è¢«å¤åˆ¶æ—¶,å­—æ®µå¼•ç”¨çš„å¯¹è±¡ä¸ä¼šè¢«å¤åˆ¶.ä¾‹å¦‚,å¦‚æœä¸€ä¸ªå¯¹è±¡æœ‰ä¸€ä¸ªæŒ‡å‘å­—ç¬¦ä¸²çš„å­—æ®µ,å¹¶ä¸”æˆ‘ä»¬å¯¹è¯¥å¯¹è±¡åšäº†ä¸€ä¸ªæµ…å¤åˆ¶,é‚£éº½ä¸¤ä¸ªå¯¹è±¡å°†å¼•ç”¨åŒä¸€ä¸ªå­—ç¬¦ä¸²)
  * @author lcd
  *
  */
 public class Client {
 	public static void main(String[] args) throws CloneNotSupportedException {
 		Date d = new Date(123123123222L);
-		Sheep s1 = new Sheep("ÉÙÀû",d);
-		System.out.println(s1);					//Ô­ĞÍÄ£Ê½.Sheep@7852e922
-		System.out.println(s1.getSname());		//ÉÙÀû
+		Sheep s1 = new Sheep("å°‘åˆ©",d);
+		System.out.println(s1);					//åŸå‹æ¨¡å¼.Sheep@7852e922
+		System.out.println(s1.getSname());		//å°‘åˆ©
 		System.out.println(s1.getBirthday());	//Mon Nov 26 08:52:03 CST 1973
 		
-		//ÒÔs1ÎªÔ­ĞÍ½¨ĞÂ¶ÔÏó
+		//ä»¥s1ä¸ºåŸå‹å»ºæ–°å¯¹è±¡
 		Sheep s2 = (Sheep) s1.clone();
 		
-		//ĞŞ¸Äs1µÄÊôĞÔ
+		//ä¿®æ”¹s1çš„å±æ€§
 		d.setTime(24124124124L);
 		System.out.println(s1.getBirthday());	//Wed Oct 07 13:08:44 CST 1970
 		
-		System.out.println(s2);					//Ô­ĞÍÄ£Ê½.Sheep@4e25154f
-		System.out.println(s2.getSname());		//ÉÙÀû
+		System.out.println(s2);					//åŸå‹æ¨¡å¼.Sheep@4e25154f
+		System.out.println(s2.getSname());		//å°‘åˆ©
 		System.out.println(s2.getBirthday());	//Wed Oct 07 13:08:44 CST 1970
-		s2.setSname("¶àÀû");
-		System.out.println(s2.getSname());		//¶àÀû
-		//	¶ÔÏó²»ÏàÍ¬£¬ÖµÏàÍ¬!
+		s2.setSname("å¤šåˆ©");
+		System.out.println(s2.getSname());		//å¤šåˆ©
+		//	å¯¹è±¡ä¸ç›¸åŒï¼Œå€¼ç›¸åŒ!
 	}
 }

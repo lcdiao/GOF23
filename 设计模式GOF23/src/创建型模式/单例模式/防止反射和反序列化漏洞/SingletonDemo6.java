@@ -1,30 +1,30 @@
-package ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´;
+ï»¿package åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
 
 /**
- * ²âÊÔÀÁººÊ½µ¥ÀıÄ£Ê½£¨ÈçºÎ·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´£©
+ * æµ‹è¯•æ‡’æ±‰å¼å•ä¾‹æ¨¡å¼ï¼ˆå¦‚ä½•é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´ï¼‰
  * @author lcd
  *
  */
 public class SingletonDemo6 implements Serializable{
-	private static SingletonDemo6 instance;//Àà³õÊ¼»¯Ê±£¬²»³õÊ¼»¯Õâ¸ö¶ÔÏó(ÑÓÊ±¼ÓÔØ£¬ÕæÕıÓÃµÄÊ±ºòÔÚ´´½¨)
-	SingletonDemo6() {	//Ë½ÓĞ»¯¹¹ÔìÆ÷
-		if(instance!=null) {	//·ÀÖ¹·´ÉäÌø¹ıÈ¨ÏŞ¼ì²é£¡£¡£¡£¡£¡
-			throw new RuntimeException();	//¶à´Îµ÷ÓÃÖ±½ÓÅ×³öÒì³£
+	private static SingletonDemo6 instance;//ç±»åˆå§‹åŒ–æ—¶ï¼Œä¸åˆå§‹åŒ–è¿™ä¸ªå¯¹è±¡(å»¶æ—¶åŠ è½½ï¼ŒçœŸæ­£ç”¨çš„æ—¶å€™åœ¨åˆ›å»º)
+	SingletonDemo6() {	//ç§æœ‰åŒ–æ„é€ å™¨
+		if(instance!=null) {	//é˜²æ­¢åå°„è·³è¿‡æƒé™æ£€æŸ¥ï¼ï¼ï¼ï¼ï¼
+			throw new RuntimeException();	//å¤šæ¬¡è°ƒç”¨ç›´æ¥æŠ›å‡ºå¼‚å¸¸
 		}
 	}			
 	
-	//·½·¨Í¬²½£¬µ÷ÓÃĞ§ÂÊµÍ
+	//æ–¹æ³•åŒæ­¥ï¼Œè°ƒç”¨æ•ˆç‡ä½
 	public static SingletonDemo6 getInstance() {		
 		if(instance==null) {
 			instance = new SingletonDemo6();
 		}
-		return instance;	//·µ»Ø¶ÔÏó£¬ÎŞÂÛµ÷ÓÃ¼¸´Î£¬·µ»ØµÄ¶ÔÏó¶¼ÊÇÍ¬Ò»¸ö(µ¥Àı)
+		return instance;	//è¿”å›å¯¹è±¡ï¼Œæ— è®ºè°ƒç”¨å‡ æ¬¡ï¼Œè¿”å›çš„å¯¹è±¡éƒ½æ˜¯åŒä¸€ä¸ª(å•ä¾‹)
 	}
 	
-	//·´ĞòÁĞ»¯Ê±£¬Èç¹û¶¨ÒåÁËreadResolve()ÔòÖ±½Ó·µ»Ø¸Ã·½·¨Ö¸¶¨µÄ¶ÔÏó¡£¶ø²»ĞèÒªµ¥¶ÀÔÚ´´½¨ĞÂ¶ÔÏó£¡
+	//ååºåˆ—åŒ–æ—¶ï¼Œå¦‚æœå®šä¹‰äº†readResolve()åˆ™ç›´æ¥è¿”å›è¯¥æ–¹æ³•æŒ‡å®šçš„å¯¹è±¡ã€‚è€Œä¸éœ€è¦å•ç‹¬åœ¨åˆ›å»ºæ–°å¯¹è±¡ï¼
 	private Object readResolve() throws ObjectStreamException{
 		return instance;
 	}

@@ -1,6 +1,6 @@
-package ½á¹¹ĞÍÄ£Ê½.ÇÅ½ÓÄ£Ê½bridge;
+package ç»“æ„å‹æ¨¡å¼.æ¡¥æ¥æ¨¡å¼bridge;
 /**
- * Æ·ÅÆ
+ * å“ç‰Œ
  * @author YY
  *
  */
@@ -10,18 +10,18 @@ public interface Brand {
 class Lenovo implements Brand{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÁªÏëµçÄÔ");
+		System.out.println("é”€å”®è”æƒ³ç”µè„‘");
 	}
 }
 class Dell implements Brand{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛDellµçÄÔ");
+		System.out.println("é”€å”®Dellç”µè„‘");
 	}
 }
 class Shenzhou implements Brand{
 	@Override
 	public void sale() {
-		System.out.println("ÏúÊÛÉñÖÛµçÄÔ");
+		System.out.println("é”€å”®ç¥èˆŸç”µè„‘");
 	}
 }

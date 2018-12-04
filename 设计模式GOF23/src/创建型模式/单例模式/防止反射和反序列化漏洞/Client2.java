@@ -1,4 +1,4 @@
-package ´´½¨ĞÍÄ£Ê½.µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´;
+package åˆ›å»ºå‹æ¨¡å¼.å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import java.io.ObjectStreamException;
 import java.lang.reflect.Constructor;
 
 /**
- * ²âÊÔ·´ÉäºÍ·´ĞòÁĞ»¯ÆÆ½âµ¥ÀıÄ£Ê½
+ * æµ‹è¯•åå°„å’Œååºåˆ—åŒ–ç ´è§£å•ä¾‹æ¨¡å¼
  * @author lcd
  *
  */
@@ -16,64 +16,64 @@ public class Client2 {
 	public static void main(String[] args) throws Exception {
 		SingletonDemo6 s1 = SingletonDemo6.getInstance();
 		SingletonDemo6 s2 = SingletonDemo6.getInstance();
-		System.out.println(s1);			//µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@7852e922
-		System.out.println(s2);			//µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@7852e922
+		System.out.println(s1);			//å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@7852e922
+		System.out.println(s2);			//å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@7852e922
 		System.out.println(s1==s2);		//true
 		
-		//Í¨¹ı·´ÉäµÄ·½Ê½Ö±½Óµ÷ÓÃË½ÓĞ¹¹ÔìÆ÷
-//		Class<SingletonDemo6> clazz = (Class<SingletonDemo6>) Class.forName("µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6");
+		//é€šè¿‡åå°„çš„æ–¹å¼ç›´æ¥è°ƒç”¨ç§æœ‰æ„é€ å™¨
+//		Class<SingletonDemo6> clazz = (Class<SingletonDemo6>) Class.forName("å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6");
 //		
 //		Constructor<SingletonDemo6> c = clazz.getDeclaredConstructor(null);
 //		
-//		c.setAccessible(true); 	//Ìø¹ıÈ¨ÏŞµÄ¼ì²é
+//		c.setAccessible(true); 	//è·³è¿‡æƒé™çš„æ£€æŸ¥
 //		
 //		SingletonDemo6 s3 = c.newInstance();
 //		SingletonDemo6 s4 = c.newInstance();
 //		
-//		System.out.println(s3);		//µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@4e25154f
-//		System.out.println(s4);		//µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@70dea4e
+//		System.out.println(s3);		//å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@4e25154f
+//		System.out.println(s4);		//å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@70dea4e
 //		System.out.println(s3==s4);	//false
 		
-		/*Ã»·ÀÖ¹·´ÉäµÄ½á¹û:
-	 	µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@4e25154f
-	 	µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@70dea4e
+		/*æ²¡é˜²æ­¢åå°„çš„ç»“æœ:
+	 	å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@4e25154f
+	 	å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@70dea4e
 	 	false	
 	 	
-	 ¼ÓÉÏ·ÀÖ¹·´ÉäºóÅ×³öÒì³£	
-	 SingletonDemo6() {	//Ë½ÓĞ»¯¹¹ÔìÆ÷
+	 åŠ ä¸Šé˜²æ­¢åå°„åæŠ›å‡ºå¼‚å¸¸	
+	 SingletonDemo6() {	//ç§æœ‰åŒ–æ„é€ å™¨
 		if(instance!=null) {
-			throw new RuntimeException();	//¶à´Îµ÷ÓÃÖ±½ÓÅ×³öÒì³£
+			throw new RuntimeException();	//å¤šæ¬¡è°ƒç”¨ç›´æ¥æŠ›å‡ºå¼‚å¸¸
 		}
 	}	
 	 */
 		
 		
 		
-		//Í¨¹ı·´ĞòÁĞ»¯µÄ·½Ê½¹¹Ôì¶à¸ö¶ÔÏó
-		//ĞòÁĞ»¯
+		//é€šè¿‡ååºåˆ—åŒ–çš„æ–¹å¼æ„é€ å¤šä¸ªå¯¹è±¡
+		//åºåˆ—åŒ–
 		FileOutputStream fos = new FileOutputStream("d:/myjava/a.txt");
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		oos.writeObject(s1);	//	½«¶ÔÏós1´æµ½d:/myjava/a.txt
+		oos.writeObject(s1);	//	å°†å¯¹è±¡s1å­˜åˆ°d:/myjava/a.txt
 		oos.close();
 		fos.close();
 		
-		//·´ĞòÁĞ»¯
+		//ååºåˆ—åŒ–
 		ObjectInputStream ois = new ObjectInputStream(new FileInputStream("d:/myjava/a.txt"));
 		SingletonDemo6 s3 = (SingletonDemo6) ois.readObject();
 		System.out.println(s3);		
 		System.out.println(s1==s3);		
 		/*
-		//·´ĞòÁĞ»¯Ê±£¬Èç¹û¶¨ÒåÁËreadResolve()ÔòÖ±½Ó·µ»Ø¸Ã·½·¨Ö¸¶¨µÄ¶ÔÏó¡£¶ø²»ĞèÒªµ¥¶ÀÔÚ´´½¨ĞÂ¶ÔÏó£¡
+		//ååºåˆ—åŒ–æ—¶ï¼Œå¦‚æœå®šä¹‰äº†readResolve()åˆ™ç›´æ¥è¿”å›è¯¥æ–¹æ³•æŒ‡å®šçš„å¯¹è±¡ã€‚è€Œä¸éœ€è¦å•ç‹¬åœ¨åˆ›å»ºæ–°å¯¹è±¡ï¼
 		private Object readResolve() throws ObjectStreamException{
 			return instance;
 		}
 		
-		¼ÓÉÏ¸Ã·½·¨Ç°µÄ½á¹û£º
-		µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@776ec8df
-		false		·´ĞòÁĞ»¯ºó¶ÔÏó²»ÏàÍ¬£¡£¡£¡£¡£¡£¡
+		åŠ ä¸Šè¯¥æ–¹æ³•å‰çš„ç»“æœï¼š
+		å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@776ec8df
+		false		ååºåˆ—åŒ–åå¯¹è±¡ä¸ç›¸åŒï¼ï¼ï¼ï¼ï¼ï¼
 		
-		¼ÓÉÏ¸Ã·½·¨ºóµÄ½á¹û£º
-		µ¥ÀıÄ£Ê½.·ÀÖ¹·´ÉäºÍ·´ĞòÁĞ»¯Â©¶´.SingletonDemo6@7852e922
+		åŠ ä¸Šè¯¥æ–¹æ³•åçš„ç»“æœï¼š
+		å•ä¾‹æ¨¡å¼.é˜²æ­¢åå°„å’Œååºåˆ—åŒ–æ¼æ´.SingletonDemo6@7852e922
 		true
 		 */
 	}

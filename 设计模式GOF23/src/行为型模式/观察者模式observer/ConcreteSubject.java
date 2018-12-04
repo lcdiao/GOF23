@@ -1,4 +1,4 @@
-package ĞĞÎªĞÍÄ£Ê½.¹Û²ìÕßÄ£Ê½observer;
+package è¡Œä¸ºå‹æ¨¡å¼.è§‚å¯Ÿè€…æ¨¡å¼observer;
 
 public class ConcreteSubject extends Subject{
     private int state;
@@ -9,6 +9,6 @@ public class ConcreteSubject extends Subject{
 
     public void setState(int state) {
         this.state = state;
-        this.notifyAllObserver();//Ä¿±ê¶ÔÏóÖµ·¢ÉúÁË±ä»¯£¬Í¨ÖªËùÒÔµÄ¹Û²ìÕß
+        this.notifyAllObserver();//ç›®æ ‡å¯¹è±¡å€¼å‘ç”Ÿäº†å˜åŒ–ï¼Œé€šçŸ¥æ‰€ä»¥çš„è§‚å¯Ÿè€…
     }
 }
