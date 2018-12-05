@@ -1,4 +1,4 @@
-package 行为型模式.观察者模式__obserable类和observer接口;
+package 行为型模式.观察者模式.观察者模式__obserable类和observer接口;
 
 import java.util.Observable;
 
