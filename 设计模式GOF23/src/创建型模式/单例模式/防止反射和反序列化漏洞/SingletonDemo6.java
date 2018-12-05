@@ -1,4 +1,4 @@
-﻿package 创建型模式.单例模式.防止反射和反序列化漏洞;
+package 创建型模式.单例模式.防止反射和反序列化漏洞;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 public class SingletonDemo6 implements Serializable{
 	private static SingletonDemo6 instance;//类初始化时，不初始化这个对象(延时加载，真正用的时候在创建)
-	SingletonDemo6() {	//私有化构造器
+	private SingletonDemo6() {	//私有化构造器
 		if(instance!=null) {	//防止反射跳过权限检查！！！！！
 			throw new RuntimeException();	//多次调用直接抛出异常
 		}

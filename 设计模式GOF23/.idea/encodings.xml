@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/创建型模式/单例模式/防止反射和反序列化漏洞/SingletonDemo6.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/结构型模式/代理模式/动态代理/Client.java" charset="UTF-8" />
-    <file url="PROJECT" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/结构型模式/组合模式/AbstractFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/结构型模式/组合模式/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/结构型模式/组合模式/Component.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/结构型模式/装饰模式/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/结构型模式/装饰模式/ICar.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
