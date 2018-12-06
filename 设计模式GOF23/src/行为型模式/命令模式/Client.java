@@ -1,5 +1,7 @@
 package 行为型模式.命令模式;
 
+import java.util.Scanner;
+
 /**
  * Created by lcd on 2018/12/6.
  */
