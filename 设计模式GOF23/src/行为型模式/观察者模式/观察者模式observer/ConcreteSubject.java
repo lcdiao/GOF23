@@ -9,6 +9,6 @@ public class ConcreteSubject extends Subject{
 
     public void setState(int state) {
         this.state = state;
-        this.notifyAllObserver();//目标对象值发生了变化，通知所以的观察者
+        this.notifyAllObserver();//目标对象值发生了变化，通知所有的观察者
     }
 }

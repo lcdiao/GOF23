@@ -14,6 +14,6 @@ public class Subject {
     }
 
     public void notifyAllObserver(){
-        list.forEach(i->i.update(this));
+        list.forEach(obs->obs.update(this));
     }
 }

@@ -15,6 +15,9 @@ public class Client {
         subject.registerObserver(obs2);
         subject.registerObserver(obs3);
 
+        System.out.println(obs1.getMyState());
+        System.out.println(obs2.getMyState());
+        System.out.println(obs3.getMyState());
         //改变subject的状态
         subject.setState(300);
         System.out.println("##############");
